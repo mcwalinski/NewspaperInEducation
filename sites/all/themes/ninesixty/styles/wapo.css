@@ -1,0 +1,606 @@
+body,div,dd,dl,dt,ul,ol,li,pre,code,form,fieldset,legend,input,textarea,p,blockqoute,td,th,h1,h2,h3,h4,h5,h6,p,form,fieldset,input{margin:0;padding:0;}
+body{font-size:62.5%;line-height:1;}
+ul,ol{list-style-position:outside;}
+a{outline:none;text-decoration:none;}
+a img{vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:none;}
+ul,li{list-style:none;}
+body{background-color:#e3e1e4;}
+#shell{width:992px;margin:0 auto;text-align:left;padding:0 10px;font-family:arial;background-color:#fff;position:relative;overflow:hidden;}
+.ie.ie7 #shell{width:992px;margin:0 auto;text-align:left;padding:0 10px;font-family:arial;background-color:#fff;overflow:hidden;position:static;}
+#content{overflow:hidden;position:relative;zoom:1;padding:5px 0 33px 0; float:left;margin-top:5px; border-top:1px solid #ccc;}
+.wp-row{overflow:hidden;position:relative;margin-bottom:15px;padding-bottom:18px;zoom:1;float:left;}
+.wp-row.border{padding-bottom:15px;}
+.wp-row.ten{margin:0 0 10px 0;padding:0 0 10px 0;}
+.wp-row.ten-no-pad{margin:0 0 10px 0;padding:0;}
+.wp-row.no-pad{margin:0;padding:0;}
+#no-margin-right-bottom{margin-right:0;margin-bottom:0;}
+#no-margin-right{margin-right:0;}
+.wp-column{float:left;position:relative;}
+.wp-pad-bot{margin-bottom:10px;}
+.wp-pad-bot-six{margin-bottom:6px;}
+.wp-pad-left{margin-left:10px;}
+.wp-pad-left-five{margin-left:5px;}
+.wp-pad-right-five{margin-right:5px;}
+.wp-pad-right{margin-right:10px;}
+.wp-pad-bottom{margin-bottom:15px;}
+.wp-pad-top{margin-top:10px;}
+.wp-pad-top-five{padding-top:5px;}
+.wp-pad-top-ten{padding-top:10px;}
+.wp-pad-bottom-five{margin-bottom:5px;}
+.wp-pad-bottom-five-padding{padding-bottom:5px;}
+.wp-pad-bottom-none{padding-bottom:0;margin-bottom:0;}
+.wp-column.two{width:176px;}
+.wp-column.two-expanded-first{width:187px;padding-right:30px;}
+.wp-column.two-expanded{width:187px;padding:0 30px 0 0;}
+.wp-column.two-expanded-last{width:176px;padding:0;}
+.wp-column.four{width:242px;}
+.wp-column.four-expanded{width:290px;}
+.wp-column.five{width:300px;}
+.wp-column.five-expanded{width:349px;}
+.wp-column.six{width:362px;}
+.wp-column.six.background{background:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-middle-right-rail.gif) repeat-y;}
+.wp-column.seven{width:410px;}
+.wp-column.ten{width:610px;}
+.wp-column.eleven{width:656px;}
+.wp-column.thirteen{width:776px;}
+.wp-column.thumb{width:190px;}
+.vertical-rule{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/fade_horizontal.gif) no-repeat 190px 0;}
+.clear{clear:both;}
+.left{float:left;}
+.ie6.ie6-left{float:left;margin-right:0;margin-bottom:0;}
+.box.right-rail-bkg .top,.box.right-rail-bkg .top div,.box.right-rail-bkg .top div div{background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-bkg-right-rail.png);background-repeat:no-repeat;height:8px;}
+.box.right-rail-bkg .bot,.box.right-rail-bkg .bot div,.box.right-rail-bkg .bot div div{background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-bkg-right-rail.png);background-repeat:no-repeat;height:8px;}
+.box.right-rail-bkg .top{padding-left:8px;background-color:#fff;}
+.box.right-rail-bkg .top div{padding-right:8px;background-position:338px 0;background-color:#fff;}
+.box.right-rail-bkg .top div div{background-position:-19px 0;}
+.box.right-rail-bkg .body{background-position:-367px 0;background-repeat:repeat-y;background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-bkg-right-rail.png);padding:2px 10px;}
+.box.right-rail-bkg .bot{padding-left:8px;background-color:#fff;background-position:0 -7px;}
+.box.right-rail-bkg .bot div{padding-right:8px;background-position:338px -7px;background-color:#fff;}
+.box.right-rail-bkg .bot div div{background-position:-19px -7px;}
+.box.module.right-rail{margin-bottom:10px;position:relative;}
+.box.module.right-rail .top,.box.module.right-rail .top div,.box.module.right-rail .top div div{background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-right-rail-module.png);background-repeat:no-repeat;height:39px;background-color:#CCC;}
+.box.module.right-rail .bot,.box.module.right-rail .bot div,.box.module.right-rail .bot div div{background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-right-rail-module.png);background-repeat:no-repeat;height:6px;}
+.box.module.right-rail .top{padding:0 0 0 7px;background-color:transparent;font-size:1px;}
+.box.module.right-rail .top div{padding:0 7px 0 0;background-position:right 0;background-color:transparent;font-size:1px;}
+.box.module.right-rail .top div div{background-position:0 -47px;background-repeat:repeat-x;font-size:1px;}
+.box.module.right-rail .top div div h2{margin:0 0 0 4px;line-height:39px;border:none;padding:0;}
+.box.module.right-rail .body{background-color:#fff;background-position:-367px 0;background-repeat:repeat-y;background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-right-rail-module.png);padding:0 3px;zoom:1;}
+.box.module.right-rail .body .header{background-color:#efebef;height:25px;line-height:25px;padding:0 8px;margin-bottom:10px;}
+.box.module.right-rail .body .content{padding:0 6px;}
+.box.module.right-rail .body .footer{border-top:e0e0e0;background:#f4f4f4;height:25px;line-height:25px;margin:10px 1px 0 1px;padding:0 10px;overflow:hidden;position:relative;font-size:1.2em;zoom:1;}
+.box.module.right-rail .body .footer.right{text-align:right;float:none;}
+.box.module.right-rail .body .footer p{line-height:25px;}
+.box.module.right-rail .body .footer p a{line-height:25px;}
+.box.module.right-rail .body .footer .corner{width:5px;height:5px;position:absolute;background-repeat:no-repeat;background-image:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-right-rail-module.png);}
+.box.module.right-rail .body .footer .corner.bot-left{bottom:0;left:0;background-position:0 -86px;}
+.box.module.right-rail .body .footer .corner.bot-right{bottom:0;right:0;background-position:-5px -86px;}
+.box.module.right-rail .bot{padding-left:7px;background-color:transparent;background-position:0 -39px;position:relative;font-size:1px;}
+.box.module.right-rail .bot div{padding-right:7px;background-position:right -39px;background-color:transparent;font-size:1px;}
+.box.module.right-rail .bot div div{background-position:0 0;background-color:#fff;background-image:none;font-size:1px;}
+h1,h2,h3,h4{font-family:georgia;}
+h1{font-size:2.5em;margin:0 0 10px 0;}
+h1 a:link{color:#000;}
+h1 a:hover{color:#057ec2;}
+h2{font-size:1.7em;margin:0 0 4px 0;font-weight:normal;line-height:26px;}
+h2 a:link{color:#000;}
+h2 a:hover{color:#057ec2;}
+h1 a:hover{color:#057ec2;}
+h3{font-size:1.5em;margin:0 0 4px 0;}
+h3 a:link{color:#000;}
+h1 a:hover{color:#057ec2;}
+h6{font-size:1.2em;}
+h2.twp-brand{background:transparent url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/logos/logo-twp-v3-masthead-branding.png) no-repeat 0 -746px;height:24px;text-indent:-9999em;width:147px;}
+h2.twp-brand-logo{background:transparent url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/logos/logo-twp-150x50.png) no-repeat 0 0;height:30px;text-indent:-9999em;width:150px;}
+h1.section-titles{font:bold 18px arial;color:#333;}
+.relative{position:relative;}
+.border{border-bottom:1px solid #dedede;}
+.double-border{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-grid-row-double-border.gif) repeat-x left bottom;}
+.single-border{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-grid-row-single-border.gif) repeat-x left bottom;}
+.sponsor-tile{font:10px arial;color:#999;line-height:30px;}
+a{color:#000;text-decoration:none;font-weight:bold;}
+a:link{color:#000;}
+a:visited{color:#000;}
+a:hover{color:#057ec2;}
+a:active{color:#000;}
+a.read-more{font-size:1.2em;font-weight:bold;display:block;margin:0 0 8px 0;}
+.thumbnail.left{float:left;margin:0 6px 6px 0;}
+.thumbnail.right{float:right;margin:0 0 6px 6px;}
+.thumbnail.vertical{margin:0 0 6px 0;}
+p{font-size: 1.5em;
+line-height: 1.5em;
+font-family: Georgia,Serif;}
+p.caption{font-size:.95em;color:#999;}
+ul.inline{overflow:hidden;list-style-type:none;}
+ul.inline li{float:left;}
+ul.bulleted{position:relative;zoom:1;}
+ul.bulleted li{background:transparent url(http://media.washingtonpost.com/wp-srv/global/images/bullet-point/blue-bullet-point.png) no-repeat left .6em;padding:0 0 0 9px;font-size:1.2em;line-height:18px;}
+#bb-columnists ul.bulleted li a:hover{color:#057ec2;}
+ul.bulleted li a span.source{color:#ccc;font-size:10px;font-weight:normal;}
+ul.bulleted.border{padding:0 0 8px;margin:0 0 8px;}
+#bb-at-a-glance-market li a:hover,#bb-at-a-glance-world li a:hover,#bb-at-a-glance-industries li a:hover{color:#057ec2;}
+form fieldset label{font-weight:bold;color:#666;}
+form fieldset div.field.inline{float:left;}
+.visible{overflow:visible;}
+.module.last{padding:0;margin:0;}
+.meta{line-height:12px;margin:0 0 4px 0;}
+.byline{font-size:10px;font-family:arial;color:#333;}
+.timestamp{font-size:11px;padding:0 0 0 5px;color:#999;text-indent:-9999em;}
+.timestamp.hot{font-weight:bold;color:#900;}
+.no-border{border:none;}
+.icon{background-image:url("http://media.washingtonpost.com/wpost/images/icons/icons-sprite.png");background-repeat:no-repeat;}
+.icon.facebook.sm{background-position:0 -2445px;padding-left:20px;}
+a.icon{padding-left:20px;background-image:url(http://media.washingtonpost.com/wpost/images/icons/icons-sprite.png);background-repeat:no-repeat;}
+a.icon.mobile{background-position:0 -485px;}
+a.icon.mobile:hover{background-position:0 -548px;}
+a.icon.newsletter-alerts{background-position:0 -1711px;}
+a.icon.newsletter-alerts:hover{background-position:0 -1772px;}
+a.icon.rss{background-position:0 -1465px;}
+a.icon.rss:hover{background-position:0 -1526px;}
+a.icon.facebook{background-position:0 -2445px;}
+a.icon.facebook:hover{background-position:0 -2506px;}
+a.icon.twitter{background-position:0 -2690px;}
+a.icon.twitter:hover{background-position:0 -2751px;}
+a.icon.podcasts{background-position:0 -1955px;}
+a.icon.podcasts:hover{background-position:0 -2016px;}
+a.icon.widgets{background-position:0 -2202px;}
+a.icon.widgets:hover{background-position:0 -2263px;}
+a.icon.post-store{background-position:0 -3423px;}
+a.icon.post-store:hover{background-position:0 -3483px;}
+a.icon.photo-store{background-position:0 -3178px;}
+a.icon.photo-store:hover{background-position:0 -3239px;}
+a.icon.info{text-indent:-9999em;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/icon-info.gif);padding:0;line-height:12px;overflow:hidden;width:12px;height:12px;background-position:0 0;}
+.module.right-rail ul li a.post-connect{padding:0;display:block;width:32px;height:32px;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-post-connectv2.png);background-repeat:no-repeat;text-indent:-9999em;}
+a.post-connect.facebook,a.post-connect.facebook:hover{background-position:0 0;}
+a.post-connect.twitter,a.post-connect.twitter:hover{background-position:0 -32px;}
+a.post-connect.rss,a.post-connect.rss:hover{background-position:0 -64px;}
+a.post-connect.yahoo-buzz,a.post-connect.yahoo-buzz:hover{background-position:0 -96px;}
+a.post-connect.alerts,a.post-connect.alerts:hover{background-position:0 -128px;}
+a.post-connect.podcasts,a.post-connect.podcasts:hover{background-position:0 -160px;}
+a.post-connect.mobile,a.post-connect.mobile:hover{background-position:0 -192px;}
+a.post-connect.app-store,a.post-connect.app-store:hover{background-position:0 -224px;}
+.social-networking-counts{width:100%;font-family:arial;}
+.social-networking-counts.pad{margin-bottom:6px;}
+.social-networking-counts li{margin-right:8px;}
+.social-networking-counts li a:link,.social-networking-counts li a:visited,.social-networking-counts li a:hover,.social-networking-counts li a:active{text-indent:-9999em;width:20px;height:16px;display:block;}
+.social-networking-counts .icon{background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-icons-social-networking.png);background-repeat:no-repeat;background-position:left top;display:block;float:left;line-height:14px;font-size:1.1em;color:#999;padding:0;}
+.social-networking-counts .icon.pluck,.social-networking-counts .icon.pluck:hover,.social-networking-counts .icon.pluck:visited,.social-networking-counts .icon.pluck:active{background-position:left top;}
+.social-networking-counts .icon.facebook,.social-networking-counts .icon.facebook:hover,.social-networking-counts .icon.facebook:visited,.social-networking-counts .icon.facebook:active{background-position:left -16px;}
+.social-networking-counts .icon.twitter,.social-networking-counts .icon.twitter:visited,.social-networking-counts .icon.twitter:hover,.social-networking-counts .icon.twitter:active{background-position:left -32px;}
+.social-networking-counts .icon.share{background-position:left -48px;height:16px;width:54px;cursor:pointer;}
+.social-networking-counts .icon.share:hover{background-position:left -64px;height:16px;width:54px;}
+.box .corner{position:absolute;width:10px;height:10px;line-height:0;}
+.box .corner.top-left{left:-1px;top:0;background:#c0c0c0;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-top-left.png) repeat-x left top;}
+.box .corner.top-right{right:-1px;top:0;background:#666;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-top-right.png) repeat-x left top;}
+.ie .box .corner.top-right{right:-1px;}
+.ie .box .corner.top-left{left:-1px;}
+.ie .box .corner.top-left,.ie .box .corner.top-right{top:0;}
+.ie .box .corner.bot-left{left:-4px;}
+.ie .box .corner.bot-right{right:0;}
+.pad-ten{margin:0 0 10px 0;}
+.module.right-rail{height:auto;}
+.module.right-rail.no-pad{margin:0;}
+.module.right-rail .info{position:absolute;right:12px;top:13px;}
+.date-padding{padding-left:77px;}
+.module.right-rail .toggle-post-most-videos{display:none;}
+.module.right-rail .toggle-post-most-commented{display:none;}
+.module.right-rail .toggle-post-most-discussions{display:none;}
+.module.right-rail .togglbe-post-most-galleries{display:none;}
+.ie.ie7 .module.right-rail .accordian{height:268px;width:335px;}
+.module.right-rail .accordian .active-header{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-accordian.png) repeat-x 0 0;height:28px;}
+.module.right-rail .accordian .active-header h3{margin:0;padding:0 0 0 26px;height:28px;}
+.module.right-rail .accordian .active-header h3 a{line-height:28px;padding:0;}
+.module.right-rail .accordian .icon-plus{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/icon-plus.gif) no-repeat 5px 7px;}
+.module.right-rail .accordian .icon-minus{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/icon-minus.gif) no-repeat 5px 7px;}
+.module.right-rail .accordian .block{display:none;padding-top:10px;}
+.module.right-rail .accordian .block ol{display:block;overflow:hidden;padding:0 10px 0 0;}
+.ie.ie6 .module.right-rail .accordian .block ol{width:310px;}
+.ie7.module.right-rail .accordian .block ol{display:block;overflow:hidden;padding:0 10px 0 0;float:left;}
+.module.right-rail .accordian .block ol li{font:12px arial;list-style-type:decimal;color:#057ec3;line-height:18px;margin:0 0 3px 26px;}
+.module.right-rail .accordian .block .right{text-align:right;padding:6px 10px 8px 0;}
+.module.right-rail .accordian .inactive-header{background:url(http://media3.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-accordian.png) repeat-x 0 -28px;border:1px solid #f2f2f2;border-bottom:1px solid #dedede;}
+.module.right-rail .accordian .inactive-header h3{margin:0;padding:0 0 0 26px;height:24px;border:1px solid #fff;}
+.module.right-rail .accordian .inactive-header h3 a{font:bold 12px arial;color:#000;line-height:24px;}
+.module.right-rail .accordian .inactive-header h3 a:hover{color:#057ec2;}
+.module.right-rail .register{font:12px arial;padding:3px 2px 0 47px;}
+.module.right-rail .register a{color:#fff;font-weight:bold;}
+.module.right-rail .right-arrow{padding-top:2px;}
+.module.right-rail .right-rail-internal{padding:3px 0 0 3px;background-color:#fff;border-left:1px solid #c3c3c3;border-right:1px solid #c3c3c3;overflow:hidden;}
+.module.right-rail .time{float:left;text-align:right;padding-right:10px;font-weight:normal;width:75px;margin-top:0;margin-bottom:5px;}
+.module.right-rail .schedule{float:left;font-weight:normal;margin-top:0;width:230px;margin-bottom:5px;font-size:12px;}
+a.more,.module.right-rail a.more{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/arrow-more.gif) no-repeat right;padding:2px 20px 2px 0;font:bold 12px arial;line-height:14px;}
+a.more.right{display:block;text-align:right;}
+.module.right-rail a{font:bold 12px arial;color:#000;line-height:14px;}
+.module.right-rail a:hover{color:#057ec2;}
+.module.right-rail h2{font:bold 17px arial;color:#fff;border:0;margin:10px 6px 6px 0;}
+.module.right-rail h4 a{margin-bottom:6px;font:bold 18px arial;}
+.module.right-rail h5{margin-bottom:6px;font:bold 12px arial;}
+.module.right-rail .subtitle{font:bold 17px arial;color:#000;padding:3px 5px 5px 0;}
+.module.right-rail b{font:bold 12px arial;color:#333;}
+.module.right-rail h3{font:bold 12px arial;color:#fff;padding:5px 5px 5px 25px;}
+.module.right-rail h3 a{font:bold 12px arial;color:#fff;line-height:20px;padding-left:3px;}
+.module.right-rail li a{font:12px arial;line-height:14px;padding-bottom:5px;color:#000;}
+#share-box{z-index:99999;position:absolute;text-align:left;}
+#share-box .background{background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/share-background-gradient.gif) repeat-x left top;overflow:hidden;position:relative;}
+#share-box .box{position:relative;overflow:hidden;border:1px solid #e8e8e8;padding:0 3px;}
+#share-box .box{padding:0;background:#fff;padding:5px 5px 0 5px;border:none;border:1px solid #ddd;border-bottom:none;}
+#share-box .box .corner.bot-left{left:-1px;bottom:0;background:#333;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-bot-left.png) repeat-x left top;}
+#share-box .box .corner.bot-right{right:-1px;bottom:0;background:#999;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-bot-right.png) repeat-x left top;}
+#share-box .box div.body{padding:6px;font:12px arial;line-height:16px;}
+#share-box .box-bottom{background:#fff;height:5px;oveflow:hidden;padding-left:5px;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-corners-share-widget.png) no-repeat left top;}
+#share-box .box-bottom div{padding:0 5px 0 0;background-position:top right;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-corners-share-widget.png);background-repeat:no-repeat;height:5px;font-size:4px;}
+#share-box .box-bottom div div{border-bottom:1px solid #ccc;background-image:none;background-color:#fff;height:4px;}
+.ie.ie7 #share-box .box-bottom div div{line-height:12px;width:187px;}
+#share-box a{font:bold 11px arial;color:#000;line-height:20px;display:block;}
+#share-box ul{overflow:hidden;border:none;background:none;}
+#share-box li{float:none;border:none;background:none;}
+ul li a.share,li.share{background:transparent url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/share-icons/share-icons-sprite.gif) no-repeat scroll left top;padding:0 0 0 20px;cursor:pointer;}
+ul li a.share.facebook,li.share.facebook{background-position:0 -1px;}
+ul li a.share.share-digg,li.share.share-digg{background-position:0 -20px;}
+ul li a.share.share-stumble-upon,li.share.share-stumble-upon{background-position:0 -40px;}
+ul li a.share.share-myspace,li.share.share-myspace{background-position:0 -60px;}
+ul li a.share.share-email,li.share.share-email{background-position:0 -80px;}
+ul li a.share.share-twitter,li.share.share-twitter{background-position:0 -100px;}
+ul li a.share.share-delicious,li.share.share-delicious{background-position:0 -120px;}
+ul li a.share.share-yahoo-buzz,li.share.share-yahoo-buzz{background-position:0 -140px;}
+ul li a.share.share-linkedin,li.share.share-linkedin{background-position:0 -160px;}
+ul li a.share.share-rss,li.share.share-rss{background-position:0 -180px;}
+.info-box{height:auto;padding:5px;width:230px;border:4px solid #ccc;background-color:#ddd;background-image:none;position:absolute;display:none;top:31px;right:10px;z-index:10;}
+.info-box h4{font:bold 12px arial;color:#000;padding-bottom:3px;}
+.info-box p{font:11px arial;color:#111;margin:0;padding:0;}
+.ie6.ieconnect{padding-top:15px;padding-left:10px;padding-right:5px;}
+#ie6-upgrade-modal{font-size:1.1em;font-family:arial;padding:10px;}
+#ie6-upgrade-modal .close{right:2px;top:8px;text-indent:-9999em;height:16px;line-height:1;overflow:hidden;}
+#ie6-upgrade-modal ul{margin-bottom:8px;font-size:12px;padding:10px;}
+#ie6-upgrade-modal ul li{text-align:center;width:110px;}
+#ie6-upgrade-modal ul li.label{font-weight:bold;width:98px;}
+#ie6-upgrade-modal ul li span.icon{background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-icons-browser.png);background-repeat:no-repeat;display:block;width:62px;height:62px;overflow:hidden;margin:0 auto 4px auto;}
+#ie6-upgrade-modal ul li span.ie{background-position:-209px 0;}
+#ie6-upgrade-modal ul li span.firefox{background-position:-137px 0;}
+#ie6-upgrade-modal ul li span.safari{background-position:-69px 0;}
+#ie6-upgrade-modal ul li span.chrome{background-position:0 0;}
+.obox .container{width:650px;}
+.obox-overlay{top:0;}
+.obox-overlay{background-color:#fff;}
+.ie.ie6 .obox-overlay{background-color:#000;}
+.obox p{font-family:Arial,sans-serif;font-size:1.2em;line-height:normal;margin:0;}
+.obox .rss-list ul li p{padding:5px 10px;}
+.obox .rss-list ul li{margin:10px 0;font-size:inherit;padding-left:0;background-image:none;}
+.obox-data{display:none;}
+.obox{position:absolute;top:0;left:0;z-index:100;text-align:left;}
+.obox .popup{position:absolute;background-color:#000;padding:10px;width:auto;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;opacity:.35;-moz-opacity:.35;filter:alpha(opacity=35);height:100%;width:100%;z-index:1;}
+.ie.ie6 .obox .popup{display:none;}
+.obox .container{position:relative;z-index:2;background-color:#fff;width:370px;padding:10px;top:10px;left:10px;}
+.ie.ie6 .obox .container{width:388px;border:1px solid #464646;}
+.ie.ie7 .obox .container{width:390px;}
+.obox .titleBar{padding:2px;padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #E1E1E1;}
+.obox .titleBar span{font-weight:bold;color:#464646;font-size:1.8em;}
+.obox .container .loading{padding:10px;text-align:center;}
+.obox div.titleBar div.window-actions div{float:right;margin-left:5px;}
+.wp-environment-header{border:2px solid #f00;width:982px;margin:0 auto;}
+.wp-environment-header div{padding:10px;background-color:#87171a;color:#fff;text-align:center;text-transform:uppercase;}
+#at-a-glance{background:#faf6ea;padding:10px;overflow:hidden;}
+#at-a-glance h2{margin-bottom:10px;font-weight:bold;}
+#at-a-glance .alerts{position:absolute;top:10px;right:10px;font-size:1.1em;color:#000;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/arrow-more.gif) no-repeat right;padding-right:20px;line-height:17px;}
+.ie.ie6 #at-a-glance .wp-column{width:590px;overflow:hidden;}
+#at-a-glance .wp-column.five{width:290px;}
+.ie.ie6 #at-a-glance .wp-column.five{width:280px;}
+#at-a-glance .wp-row.pad-ten{padding-bottom:0;}
+#at-a-glance .sponsor h5{font:bold 11px arial;padding-right:6px;color:#666;}
+#at-a-glance .right{float:right;}
+.carousel .pages-wrapper{position:relative;}
+.carousel .controls{overflow:hidden;position:relative;}
+.carousel .controls.default{position:absolute;right:0;top:0;z-index:999;}
+.carousel .controls a{display:block;height:16px;width:16px;float:left;cursor:pointer;}
+.carousel .controls a span{overflow:hidden;display:block;text-indent:-9999em;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-buttons-carousel-controlsv2.png);background-repeat:no-repeat;}
+.carousel .controls .prev,.carousel .controls .next{height:16px;width:16px;}
+.carousel .controls .prev span,.carousel .controls .next span{height:16px;}
+.carousel .controls .prev{margin-right:6px;}
+.carousel .controls .next{margin-left:6px;}
+.carousel .controls .prev span{background-position:left top;}
+.carousel .controls .next span{background-position:-18px top;}
+.carousel .controls .nav-page{width:11px;height:7px;margin:4px 4px 0 0;}
+.carousel .controls .nav-page span{height:10px;background-position:-38px -16px;}
+.carousel .controls .nav-page.selected span{background-position:-37px -2px;}
+.carousel .controls .nav-page.last{margin-right:0;}
+.carousel .pages .page{display:none;position:absolute;top:0;width:100%;}
+.carousel .pages .page.selected{display:block;width:100%;}
+.carousel .pages .page .story{overflow:hidden;}
+.module.p5-personality{padding:0;background-color:#fff;height:186px;}
+.module.p5-personality .background{background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/fade_horizontal.gif);border-top:1px solid #ccc;border-bottom:0;overflow:hidden;padding:10px 10px 0 10px;}
+.module.p5-personality a{font:bold 12px arial;color:#000;line-height:14px;}
+.module.p5-personality h2{font:17px georgia;color:#666;border:0;margin-bottom:5px;}
+.module.p5-personality .background h2{margin:0;}
+.module.p5-personality .background h2 a{font:bold 16px arial;}
+.module.p5-personality h2 a{font:17px georgia;color:#000;font-weight:bold;}
+.module.p5-personality h2 a:hover{font:17px georgia;color:#057ec2;font-weight:bold;}
+.module.p5-personality p{font:12px arial;color:#000;line-height:19px;}
+.module.p5-personality h3{font:bold 12px arial;border:none;color:#000;margin-bottom:15px;margin-top:10px;}
+.module.p5-personality h4{font:bold 12px arial;color:#333;margin-bottom:5px;text-transform:none;}
+.ms-p5-personality .pages-wrapper .pages{height:194px;}
+.module.e3-your-take{overflow:hidden;width:610px;}
+.module.e3-your-take h2{font:17px georgia;color:#666;margin-bottom:10px;font-weight:bold;}
+.module.e3-your-take p{font:italic 14px georgia;color:#333;text-align:center;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/quote-bubble-middle-bg.gif) repeat-x;border-left:1px solid #e8e8e8;border-right:1px solid #e8e8e8;line-height:19px;margin-bottom:0;}
+.module.e3-your-take p img{padding:0 5px 0 5px;}
+.module.e3-your-take h4,h4 a{font:bold 15px georgia;color:#000;margin-bottom:15px;}
+.module.e3-your-take h5{font:bold 12px georgia;color:#666;float:left;}
+.module.e3-your-take h3{font:bold 12px arial;color:#fff;text-align:center;float:right;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/join-discussion-bg.gif) no-repeat;width:130px;height:24px;line-height:22px;margin:0;}
+.module.e3-your-take h3 a{color:#fff;}
+.module.e3-your-take h6{font:bold 10px arial;color:#111;padding-right:10px;display:inline;}
+.module.e3-your-take .social-networking-counts{width:240px;float:left;}
+.module.ugc-video h2{font-weight:bold;}
+.partner-promos .controls.default{top:37px;}
+.partner-promos .pages-wrapper .pages{height:300px;}
+.partner-promo{overflow:hidden;}
+.partner-promo .header{height:28px;overflow:hidden;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-partners-promo.png);background-position:left 0;background-repeat:no-repeat;background-position:left -168px;margin:0 0 10px 0;}
+.partner-promo .header a{display:block;height:28px;text-indent:-9999em;}
+.partner-promo .thumbnail.left{margin:0 10px 10px 0;}
+.partner-promo h2{margin:0 0 10px 0;font-size:1.5em;}
+.partner-promo h6{line-height:16px;}
+.partner-promo a.read-more{margin:0;}
+.partner-promo .header.the-root{background-position:left top;}
+.partner-promo .header.the-big-money{background-position:left -28px;}
+.partner-promo .header.all-business{background-position:left -56px;}
+.partner-promo .header.slate{background-position:left -84px;}
+.partner-promo .header.foreign-policy{background-position:left -112px;}
+.partner-promo .header.newsweek{background-position:left -140px;}
+.partner-promo .header.who-runs-gov{background-position:left -196px;}
+.partner-promo .header.capital-business{background-position:left -224px;}
+.photo-gallery-preview ul.galleries{margin:0 0 10px 0;zoom:1;}
+.photo-gallery-preview ul.galleries li{margin:0 21px 0 0;}
+.photo-gallery-preview ul.galleries li.last{margin:0;}
+.module.post-roundtable .content{overflow:hidden;padding:7px 5px 0 5px;}
+.module.post-roundtable .content h5{margin-bottom:6px;}
+.module.post-roundtable .content h5 a{font-size:18px;}
+.module.post-roundtable h6{margin-bottom:6px;}
+.module.post-roundtable p{margin:0!important;}
+.section-footer{padding:10px;background:#f8f8f8;border-bottom:1px solid #e8e8e8;}
+.section-footer ul{width:600px;}
+.section-footer ul li{width:190px;}
+.module.politics-a-b{padding:0;}
+.module.politics-a-b h6{font-weight:normal;}
+.module.politics-a-b div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.story-one{padding:0;}
+.module.story-one h6{font-weight:normal;}
+.module.story-one div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.h1-hero h6{font-weight:normal;}
+.module.h1-hero h2{font-size:2.5em;line-height:1;}
+.module.h1-hero div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.story-three{overflow:hidden;}
+.story-three h3{border-bottom:1px solid #dedede;margin:0 0 8px 0;padding:0 0 4px 0;font-size:1.2em;}
+.story-three ul{width:190px;float:left;}
+.ie.ie6 .story-three ul{width:184px;}
+.story-three ul span li{padding:0 0 0 9px;line-height:18px;background-image:url("http://media.washingtonpost.com/wp-srv/global/images/bullet-point/bullet-point.png");background-repeat:no-repeat;background-position:0 .6em;clear:both;position:relative;}
+.story-three ul span li a{font:bold 1.2em arial;}
+.module.story-three div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.story-six{padding:0;overflow:hidden;}
+.module.story-six h2{font:bold 13px arial;color:#666;}
+.module.story-six h6 a{font:bold 13px arial;color:#000;}
+.module.story-six div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.story-six p{font:12px arial;color:#111;line-height:18px;margin:0;}
+.module.s8-single-story{padding:0;}
+.module.s8-single-story h2{font:17px georgia;color:#666;margin-bottom:10px;}
+.module.s8-single-story h5{font:10px arial;color:#666;}
+.module.s8-single-story img{padding:1px;border:1px solid #e8e8e8;margin-bottom:5px;}
+.module.s8-single-story p{font:12px arial;color:#111;line-height:18px;}
+.module.story-eight h3 a{font:bold 13px arial;}
+.module.story-eight div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.s63-3-story h2{font-weight:bold;}
+.ms-s63-three-column h2{font-weight:bold;}
+.module.p2-double-personality{padding:0;}
+.module.p2-double-personality h2{font:17px georgia;color:#666;margin-bottom:10px;}
+.module.p2-double-personality h5{font:10px arial;color:#666;}
+.module.p2-double-personality h4 a{font:bold 15px georgia;color:#000;}
+.module.p2-double-personality h4 a:hover{color:#057ec2;}
+.module.p2-double-personality .thumbnail{margin:0 10px 0 0;}
+.module.p2-double-personality .thumbnail img{padding:1px;border:1px solid #e8e8e8;}
+.module.p2-double-personality p{font:12px arial;color:#111;line-height:18px;}
+.module.p2-double-personality h3 a{font:bold 12px arial;border:none;color:#000;margin-bottom:15px;}
+.module.p2-double-personality .story{margin-bottom:10px;}
+.module.p2-double-personality{overflow:hidden;margin:0 0 10px 0;}
+.module.p2-double-personality p{margin:0;}
+.module.p2-double-personality .thumbnail.left{margin-bottom:0;}
+.module.p2-double-personality h2{margin-bottom:10px;}
+.ms-p2-double-personality .pages{height:230px;}
+.module.p3-featured-opinion{overflow:hidden;}
+.module.p3-featured-opinion h2{font:17px georgia;color:#666;margin-bottom:10px;font-weight:bold;}
+.module.p3-featured-opinion p{font:italic 14px georgia;color:#333;text-align:left;line-height:19px;margin-bottom:0;}
+.module.p3-featured-opinion p img{padding:0 5px 0 5px;}
+.module.p3-featured-opinion h4,h4 a{font:bold 15px arial;color:#000;margin-bottom:15px;}
+.module.p3-featured-opinion h5{font:bold 12px georgia;color:#666;float:left;}
+.module.p3-featured-opinion h3{font:bold 12px arial;color:#fff;text-align:center;float:right;width:130px;height:24px;line-height:22px;margin:0;}
+.module.p3-featured-opinion h3 a{color:#fff;}
+.module.p3-featured-opinion h6{font:bold 10px arial;color:#111;padding-right:10px;display:inline;}
+.module.p3-featured-opinion .read-more{text-align:right;}
+.ms-p3-featured-opinions .pages{height:230px;}
+.module.ad{text-align:center;margin:0 auto;text-align:left;}
+.module.ad img{float:none;}
+.module.ad table{margin:0 auto;}
+.module.alert{margin:0 10px;}
+.module.networked{margin:0 10px;}
+.module.newsletter p{margin:0;}
+.module.newsletter form{padding:6px 6px 0 6px;}
+.module.newsletter form fieldset{margin:10px 0 0 0;}
+.module.newsletter form div.field{margin-bottom:6px;margin-bottom:3px;}
+.module.newsletter form div.field label{font-size:1.2em;color:#333;}
+.module.newsletter form div.field label input.text{margin-left:4px;font-size:12px;color:#333;padding:4px 0 4px 5px;border:1px solid #ccc;margin:0;}
+.module.newsletter form div.field label input{margin-right:4px;}
+.module.newsletter form div.field.right{text-align:right;width:100%;margin:0;}
+.module.newsletter .errors{color:#900;display:none;font-size:1.1em;margin-top:6px;}
+.module.post-most{margin:0 10px;}
+#DiscoveredArticle li{color:#c00;font-weight:bold;font-size:11px;}
+.potus-tracker #potus-event{overflow:hidden;padding:10px 6px;}
+.potus-tracker form fieldset{overflow:hidden;padding:0 6px;}
+.potus-tracker form fieldset .field{float:left;}
+.potus-tracker form fieldset .field input.text{font-size:12px;color:#333;border:1px solid #ccc;width:233px;padding:4px;margin-bottom:7px;margin-right:5px;padding-right:5px;}
+.potus-tracker .current-topic{background-color:#e8e8e8;padding:5px;position:relative;text-align:center;}
+.potus-tracker .current-topic a{display:none;position:absolute;top:4px;}
+.potus-tracker .current-topic a#next-link{right:4px;}
+.potus-tracker .current-topic a#prev-link{left:4px;}
+#post-connect{padding:10px 4px 0 4px;zoom:1;}
+#post-connect li{margin-right:10px;}
+#post-connect li.last{margin:0;}
+.module.e2-twitter-feed{padding:0;}
+.module.e2-twitter-feed .pages{height:200px;}
+.module.e2-twitter-feed .story{overflow:hidden;margin-bottom:10px;}
+.module.e2-twitter-feed .story .thumbnail.left{margin:0 10px 0 0;}
+.module.e2-twitter-feed h2{margin-bottom:10px;}
+.module.e2-twitter-feed h5{font:10px arial;color:#666;}
+.module.e2-twitter-feed h4 a{font:bold 15px georgia;color:#000;}
+.module.e2-twitter-feed h4 a:hover{color:#057ec2;}
+.module.e2.twitter-feed h4.hash a{font:bold 15px arial;color:#000;}
+.module.e2-twitter-feed img{padding:1px;border:1px solid #e8e8e8;}
+.module.e2-twitter-feed p{font:12px arial;color:#111;line-height:18px;float:left;width:234px;margin:0;}
+.module.e2-twitter-feed p b{color:#666;display:block;}
+.ugc-video .video{margin:0 0 6px 0;}
+.ugc-video .teasers{margin:0 0 10px 0;}
+.ugc-video .teasers li{margin:0 15px 0 0;}
+.ugc-video .teasers li.last{margin:0;}
+#video-dialog-box{padding:10px;}
+#video-dialog-box .titlebar{margin:0 0 10px 0;padding:0 0 10px 0;text-transform:uppercase;border-bottom:1px solid #e1e1e1;overflow:hidden;position:relative;font:bold 12px arial;line-height:22px;color:#e11a1f;}
+#video-dialog-box .titlebar h6{height:20px;float:left;background:url('http://media.washingtonpost.com/wp-srv/homepages/images/video-module-sprite.png') no-repeat left -75px;text-indent:-9999em;width:131px;}
+#video-dialog-box .titlebar span{color:#9a9a9a;position:relative;top:-2px;}
+#video-dialog-box p{font-size:12px;font-family:arial;}
+#video-dialog-box .footer{padding:10px;background:#eee;overflow:hidden;height:86px;}
+.dialog .button{background-image:url('http://media.washingtonpost.com/wp-srv/homepages/images/video-module-sprite.png');background-repeat:no-repeat;}
+.dialog .button.close{background-position:left -60px;cursor:pointer;height:16px;padding:0;position:absolute;right:0;text-indent:-9999em;width:20px;top:0;}
+.video-preview.wide{overflow:hidden;}
+.video-preview.wide .controls{overflow:hidden;top:5px;right:5px;z-index:1;}
+.video-preview.wide .controls a{display:block;height:16px;width:16px;float:left;cursor:pointer;}
+.video-preview.wide .controls a span{overflow:hidden;display:block;text-indent:-9999em;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/sprites/sprite-buttons-carousel-controlsv2.png);background-repeat:no-repeat;}
+.video-preview.wide .controls .prev,.carousel .controls .next{height:16px;width:16px;}
+.video-preview.wide .controls .prev span,.video-preview.wide .controls .next span{height:16px;}
+.video-preview.wide .controls .prev{margin-right:6px;}
+.video-preview.wide .controls .next{margin-left:6px;}
+.video-preview.wide .controls .prev span{background-position:left top;}
+.video-preview.wide .controls .next span{background-position:-18px top;}
+.video-preview.wide .controls .nav-page{width:11px;height:7px;margin:4px 4px 0 0;}
+.video-preview.wide .controls .nav-page span{height:10px;background-position:-52px -16px;}
+.video-preview.wide .controls .nav-page.selected span{background-position:-52px -2px;}
+.video-preview.wide .controls .nav-page.last{margin-right:0;}
+.video-preview.wide h2{padding:0 0 0 8px;position:absolute;top:4px;color:#fff;font:1.5em arial;margin:0;}
+.video-preview.wide h2 a{color:#fff;font-weight:normal;font-size:18px;}
+.video-preview.wide .header{text-indent:-9999em;}
+.video-preview.wide .content .deck{width:303px;float:left;}
+.video-preview.wide .content .deck p{font-weight:bold;padding:0 10px 0 0;}
+.video-preview.wide .content .see-more{display:none;}
+.video-preview.wide .content .deck div.image{margin-bottom:10px;cursor:pointer;}
+.video-preview.wide .content .deck div.image img{width:295px;height:152px;}
+.video-preview.wide .content .deck .overlay-wrapper .overlay{position:absolute;left:120px;top:88.5px;z-index:2;width:55px;height:55px;overflow:hidden;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/icons/icon-video-play-lg.png) no-repeat left top;cursor:pointer;}
+.video-preview.wide .content .video-selector{float:left;width:295px;overflow:hidden;}
+.video-preview.wide .content .video-selector .carousel-wrapper{height:236px;overflow:hidden;}
+.video-preview.wide .content .video-selector .carousel-wrapper .queue{display:none;}
+.video-preview.wide .content .video-selector .nav{display:none;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages{height:236px;overflow:hidden;position:relative;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page{overflow:hidden;padding:0 0 10px 0;height:236px;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page .item{margin-bottom:10px;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page .content{overflow:hidden;}
+.ie.ie7 .video-preview.wide .content .video-selector .carousel-wrapper .pages .page .content{float:left;clear:both;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page .content h4{font-family:arial;font-size:1.2em;line-height:16px;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page .content .image{float:left;margin-right:10px;position:relative;cursor:pointer;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page .content .image .overlay{position:absolute;left:26px;top:26px;z-index:2;width:22px;height:22px;overflow:hidden;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/icons/icon-video-play-sm.png) no-repeat left top;}
+.video-preview.wide .content .video-selector .carousel-wrapper .pages .page .content p{display:none;}
+.video-preview.wide .videoControls{z-index:10;}
+.video-preview.wide .box{border:none;padding:0;overflow:hidden;position:relative;}
+.video-preview.wide .box .header{background-position:left -7px;width:100%;background-image:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-header-black-bluev2.png);background-repeat:repeat-x;padding:0;height:42px;position:relative;}
+.video-preview.wide .box div.header h2{margin:0;padding:0;font:bold 15px arial;color:#fff;line-height:42px;padding:0 0 0 6px;}
+.video-preview.wide .box .body{overflow-x:hidden;padding:0;}
+.video-preview.wide .box .corner.top-left{width:8px;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-top-left-no-padv2.png) no-repeat 1px top;}
+.video-preview.wide .box .corner.top-right{width:8px;background:url(http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bkg/bkg-box-top-right-no-padv2.png) no-repeat -3px top;}
+.video-preview.wide .box .social-networking-counts{bottom:0;left:0;position:absolute;}
+.box.module.right-rail.congressional-database{font-size:1.2em;margin-bottom:0;}
+.congressional-database .inline{line-height:25px;height:25px;}
+.congressional-database .inline li{margin-right:10px;line-height:25px;}
+.congressional-database .inline li a,.congressional-database .inline li b{line-height:25px;}
+.congressional-database .panel{margin-bottom:10px;display:none;}
+.congressional-database .panel table{width:100%;}
+.congressional-database .panel table tbody tr td{line-height:18px;padding:0 7px;}
+.congressional-database .grid{overflow:hidden;padding:0 7px;margin:0 0 10px 0;}
+.congressional-database form{padding:0 7px;}
+.congressional-database form fieldset{padding-bottom:6px;}
+.congressional-database form fieldset.inline div.field{float:left;}
+.congressional-database form fieldset div.field input.text{border:1px solid #ccc;padding:4px 5px;font-size:12px;color:#333;}
+.congressional-database form fieldset div.field input.name{width:96%;}
+.congressional-database form fieldset div.field input.zip{width:40px;}
+.congressional-database form fieldset div.field select.state{padding:3px 1px 2px 0;width:178px;border:1px solid #ccc;}
+.congressional-database form fieldset div.field select.state{width:170px;}
+.congressional-database form fieldset div.field.one{margin-right:8px;}
+.congressional-database form fieldset div.field.two{margin-right:8px;}
+.congressional-database label{display:block;text-transform:uppercase;color:#000;margin-bottom:6px;}
+.hero-double-feature .wp-column object{margin-bottom:10px;}
+.hero-dynamic-lede{clear:both;width:610px;margin:0 auto;}
+.hero-dynamic-lede ul.packages{width:300px;float:right;position:relative;margin-bottom:30px;}
+.ie6 .hero-dynamic-lede ul.packages,.ie7 .hero-dynamic-lede ul.packages{width:300px;}
+.hero-dynamic-lede ul.packages li.package{z-index:3;width:300px;float:left;border-bottom:1px solid #e2e2e2;}
+.hero-dynamic-lede ul.packages li.last{border:none;}
+.hero-dynamic-lede ul.packages li.package div.control{margin:6px;overflow:hidden;}
+.hero-dynamic-lede ul.packages li.package.first div.control{margin-top:0;}
+.hero-dynamic-lede ul.packages li div.control h2{cursor:pointer;font-size:1.4em;margin:0;line-height:17px;}
+.hero-dynamic-lede ul.packages li div.control h2 a{color:#999;}
+.hero-dynamic-lede ul.packages li.selected div.control h2 a{color:#000;}
+.hero-dynamic-lede ul.packages li.package div.content{width:300px;position:absolute;z-index:4;left:-310px;top:0;display:none;overflow:hidden;}
+.hero-dynamic-lede ul.packages li.selected div.content{display:inline;}
+.hero-dynamic-lede ul.packages li.package div.content div.package-content{display:none;}
+.hero-dynamic-lede ul.packages li.package.first div.content div.package-content{display:block;}
+.hero-dynamic-lede .package-content div.body{float:left;width:100%;}
+.hero-dynamic-lede .package-content div.body div.media div.thumbnail{margin-bottom:10px;}
+.bloglist h2{font:bold 16px georgia;color:#999;margin-bottom:10px;}
+.module.blog-one{padding:0;}
+.module.blog-one h3{font:bold 12px arial;color:#000;}
+.module.blog-one h3 a{font:bold 12px arial;color:#000;}
+.module.blog-one p{font:normal 12px arial;color:#111;padding-left:90px;}
+.module.blog-one p.byline{font:normal 10px arial;color:#333;}
+.module.blog-one .share{font:normal 11px arial;color:#333;}
+.module.blog-one ul.share li{padding-right:5px;}
+.module.blog-one ul.share li.first{padding-top:2px;padding-right:10px;}
+.module.blog-one div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.blog-one div.thumbnail.left{margin-bottom:0;}
+.module.local-news h2{font-weight:bold;}
+#bb-economic-calendar span.header{color:#fff;}
+.module.right-rail h2 span.header{padding-top:15px;font-size:12px;font-weight:normal;}
+.box.module.right-rail .top div div.wp-pad-top-fifteen{padding-top:15px;}
+.box.module.right-rail .top div div.wp-nopad-right{padding-right:0;}
+.module.linklist-hybrid h2{font-weight:bold;color:#666;}
+.module.linklist-hybrid h2 a{font-weight:bold;color:#000;}
+.module.story-double-column h6{font:bold 16px georgia;color:#666;}
+.module.story-double-column h6 a{font:bold 16px georgia;color:#000;}
+.module.story-double-column div.thumbnail img{padding:1px;border:1px solid #e1e1e1;}
+.module.market-pulse .body{min-height:114px;}
+.ie.ie6 #bb-market-pulse{width:605px;}
+#bb-market-data form fieldset .field input.text,#bb-watchlist form fieldset .field input.text{border:1px solid #CCC;color:#333;font:12px arial;margin-bottom:10px;margin-right:5px;padding:4px 5px 4px 4px;}
+#bb-market-data form fieldset .field input.text{width:228px;}
+#bb-watchlist form fieldset .field input.text{width:228px;}
+#bb-watchlist form fieldset .field,#bb-market-data form fieldset .field{float:left;}
+.ie.ie7 #bb-watchlist.box.module.right-rail .bot{width:335px;position:absolute;}
+#obox-login-services.obox .container{width:450px;}
+#obox-login-services.obox .titleBar{background-color:#F4F4F4;}
+#obox-login-services .errors{color:#900;font-size:1.3em;margin:6px 0 6px 0;}
+#obox-login-services .wp-row{margin:0;padding:0;}
+#obox-login-services .button{background-image:url("http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bg-btn-rightrail.gif");height:24px;width:75px;}
+#obox-login-services a{font-family:arial;font-size:1.1em;}
+#obox-login-services .button div{padding-top:4px;text-align:center;}
+#obox-login-services .button a{color:#FFF;font:bold 12px/14px arial;}
+#obox-login-services form .fieldset{margin-top:5px;}
+#obox-login-services form div.field label{color:#333;font-size:1.1em;font-weight:bold;font-family:arial;}
+#obox-login-services form div.field label input{border:1px solid #CCC;color:#000;font-size:12px;padding:4px 0 4px 5px;margin:4px 0 4px 0;width:100%;}
+#obox-login-services h3{color:#666;}
+.module.right-rail.live-q-a .button{background-image:url("http://media.washingtonpost.com/wp-srv/global/images/twp-v3/bg-btn-rightrail.gif");float:right;height:24px;width:75px;}
+.module.right-rail.live-q-a div.wp-pad-six{padding:6px 6px 0 6px;}
+.module.right-rail.live-q-a .button div{padding-top:4px;text-align:center;}
+.module.right-rail.live-q-a .button a{color:#fff;}
+
+.modal-overlay{position:absolute;top:0;left:0;z-index:10000;width:100%;height:100%;cursor:pointer;background:#000;}
+.modal-wrapper{float:left;position:absolute;top:100px;left:100px;z-index:10001;color:gray;background-color:#fff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-moz-box-shadow:#333 5px 5px 15px;-webkit-box-shadow:#333 5px 5px 15px;box-shadow:#333 5px 5px 15px;text-align:left;padding:10px 10px;font-family:arial;}
+.modal-close{position:absolute;top:-14px;right:-14px;width:28px;height:28px;background:no-repeat top left url("http://www.washingtonpost.com/rw/sites/twpweb/img/icons/icon_close.gif") transparent;cursor:pointer;}
+.modal{position:relative;overflow:hidden;}
+.moodal-header{display:none;}
+.modal-body{min-height:100px;min-width:100px;}
+.modal-footer{display:none;}
+.modal-overlay-default{background-color:#000;opacity:0;}
+.modal-wrapper.media-player{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.media-player .modal-close{display:none;}
+.media-player .modal-body{padding:0 10px;}
+#header-v3 {
+z-index: 500 !important;
+}

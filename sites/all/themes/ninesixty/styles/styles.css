@@ -1,0 +1,1497 @@
+/* $Id: styles.css,v 1.1.2.2.2.1 2011/01/11 01:08:49 dvessel Exp $ */
+body {
+background-color: #E3E1E4;
+}
+body {
+font-size: 62.5%;
+line-height: 1;
+}
+
+#shell {
+width: 992px;
+margin: 0 auto;
+text-align: left;
+padding: 0 10px;
+font-family: arial;
+background-color: white;
+position: relative;
+overflow: hidden;
+}
+
+#content {
+overflow: hidden;
+position: relative;
+zoom: 1;
+padding: 10px 0 33px 0;
+float:left !important;
+}
+
+
+.wp-column {
+float: left;
+position: relative;
+}
+
+.wp-column.ten {
+width: 610px;
+}
+
+.wp-column.six.end {
+width: 372px;
+}
+
+
+h1#site-name {
+  margin-bottom: 0;
+}
+
+em{
+font-style: italic !important;
+}
+
+table{
+	width:580px;
+}
+
+
+
+.field-name-field-body1 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body1 ul {
+padding:10px;
+}
+
+.field-name-field-body2 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body2 ul {
+padding:10px;
+}
+
+.field-name-field-answers li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-answers{
+	float: left;
+	width: 580px;
+}
+
+.field-name-field-answers ul {
+padding:10px;
+}
+
+.field-name-field-answers li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-answers ul {
+padding:10px;
+}
+
+
+.field-name-body li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-body ul {
+padding:10px;
+}
+
+.field-name-body li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body3 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body3 ul {
+padding:10px;
+}
+
+.field-name-field-body4 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body4 ul {
+padding:10px;
+}
+
+.field-name-field-body5 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body5 ul {
+padding:10px;
+}
+
+.field-name-field-body6 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body6 ul {
+padding:10px;
+}
+
+.field-name-field-body7 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body7 ul {
+padding:10px;
+}
+
+.field-name-field-body8 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body8 ul {
+padding:10px;
+}
+
+.field-name-field-body9 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body9 ul {
+padding:10px;
+}
+
+.field-name-field-body10 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body10 ul {
+padding:10px;
+}
+
+.field-name-field-body11 li {
+list-style-type: disc;
+margin-left: 30px;
+font-size: 16px;
+font-family: Georgia,Serif;
+margin-bottom: 5px;
+line-height:1.5em;
+}
+
+.field-name-field-body11 ul {
+padding:10px;
+}
+
+
+
+.primary{
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#site-header,
+#site-subheader,
+#footer-region,
+.column,
+.node,
+.comment,
+.block {
+  margin-bottom: 1.5em;
+}
+
+ul.main-menu,
+ul.secondary-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+#main {
+float:left;
+max-width:610px;
+}
+
+#sidebar-left{
+float:right;
+margin-right:0px;
+}
+
+#sidebar-left h2{
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #999;
+font-size: 18px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+
+#block-views-frontpage-block-1{
+	margin-top:-10px;
+}
+
+.print-link{
+	min-height:10px;
+	margin-bottom:5px;
+}
+
+
+
+
+.field-name-field-lesson{
+	border-top:solid #ccc 1px ;
+	width:600px;
+	margin-top:10px;
+	padding-top:15px;
+	float:left;
+}
+
+.field-name-field-lesson .field-label {
+	float:left;
+}
+
+.field-name-field-lesson .field-item.even {
+	padding-bottom:5px;
+	font-size:12px;
+	line-height:15px;
+	white-space:normal;
+}
+
+
+
+.field-name-field-lesson1{
+	border-top:solid #ccc 1px ;
+	width:600px;
+	margin-top:10px;
+	padding-top:15px;
+	float:left;
+}
+
+.field-name-field-lesson1 .field-label {
+	float:left;
+}
+
+.field-name-field-lesson1 .field-item.even {
+	padding-bottom:5px;
+	font-size:12px;
+	line-height:15px;
+	white-space:normal;
+	padding-left:50px;
+}
+
+
+.field-label {
+font-weight: bold;
+font-size:12px;
+padding-bottom:5px;
+}
+
+.field-items a{
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.field-name-body{
+	clear:both;
+}
+
+.field-name-body p{
+font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-body2 p{
+font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-answers p{
+font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-body3 p{
+	font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-body4 p{
+	font-family: Georgia,serif;
+font-size: 1em;
+line-height: 1.5em;
+}
+
+
+.field-name-field-body5 p{
+	font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+
+.field-name-field-body6 p{
+	font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+
+.field-name-field-body7 p{
+	font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-body4 .field-item.even{
+	font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-body4 .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #666;
+	font-weight: bold;
+	padding-top:20px;
+}
+
+.field-name-field-body11 p{
+	font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-body p a{
+font-family: Georgia,serif;
+font-size: 16px;
+line-height: 1.5em;
+text-decoration:underline;
+}
+
+.field-name-field-body2 p a{
+font-family: Georgia,serif;
+font-size: 1em;
+line-height: 1.5em;
+text-decoration:underline;
+}
+
+.field-name-field-body3 p a{
+font-family: Georgia,serif;
+font-size: 16px;
+line-height: 1.5em;
+text-decoration:underline;
+}
+
+.field-name-field-body4 p a{
+font-family: Georgia,serif;
+font-size: 16px;
+line-height: 1.5em;
+text-decoration:underline;
+}
+
+.field-name-field-body11 p a{
+font-family: Georgia,serif;
+font-size: 16px;
+line-height: 1.5em;
+text-decoration:underline;
+}
+
+
+.field-name-field-border{
+	padding:0px 0 5px 0;
+}
+
+.field-name-field-resource-image{
+	width:285px;
+	border-top: solid #CCC 1px;
+	float:left;
+	margin-right: 25px;
+	padding: 10px 0px;
+	margin-top:10px;
+}
+
+.field-name-field-resource-image .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #999;
+	padding-bottom: 15px;
+}
+
+.field-name-field-resource-image2{
+	width:285px;
+	border-top: solid #CCC 1px;
+	float:left;
+	margin-right: 25px;
+	padding: 10px 0px;
+	margin-top:10px;
+}
+
+.field-name-field-resource-image2 .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #999;
+	padding-bottom: 15px;
+}
+
+.field-name-field-resource-image3{
+	width:285px;
+	border-top: solid #CCC 1px;
+	float:left;
+	margin-right: 25px;
+	padding: 10px 0px;
+	margin-top:10px;
+}
+
+.field-name-field-resource-image3 .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #999;
+	padding-bottom: 15px;
+}
+
+.field-name-field-resource-image4{
+	width:285px;
+	border-top: solid #CCC 1px;
+	float:left;
+	margin-right: 25px;
+	padding: 10px 0px;
+	margin-top:10px;
+}
+
+.field-name-field-resource-image4 .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #999;
+	padding-bottom: 15px;
+}
+
+
+.field-name-field-resources1{
+	width:285px;
+	float:left;
+	margin:0px 25px 15px 0px;
+	padding: 15px 0px;
+	background:url("/sites/all/themes/ninesixty/images/resource_bottom.png") no-repeat left bottom;
+}
+
+.field-name-field-resources1 .field-item.even{
+	margin-bottom:10px;
+}
+
+.field-name-field-resources1 .field-item.odd{
+	margin-bottom:10px;
+}
+
+
+.field-name-field-resources2 .field-item.even{
+	margin-bottom:10px;
+}
+
+.field-name-field-resources2 .field-item.odd{
+	margin-bottom:10px;
+}
+
+
+.field-name-field-resources3 .field-item.even{
+	margin-bottom:10px;
+}
+
+.field-name-field-resources3 .field-item.odd{
+	margin-bottom:10px;
+}
+
+.field-name-field-read .field-item.even{
+	margin-bottom:10px;
+}
+
+.field-name-field-read .field-item.odd{
+	margin-bottom:10px;
+}
+
+.field-name-field-resource-title{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #666;
+	padding-top: 10px;
+	font-weight:bold;
+	border-top: solid #CCC 1px;
+	width:285px;
+}
+
+
+.field-name-field-resources1 .field-item a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	font-size:12px;
+	text-decoration:none;
+}
+
+
+.field-name-field-resources2{
+	width:285px;
+	float:left;
+	margin:15px 25px 15px 0px;
+	padding: 5px 0px;
+	background:url("/sites/all/themes/ninesixty/images/resource_bottom.png") no-repeat left bottom;
+}
+
+.field-name-field-resource-title2{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #666;
+	border-top: solid #CCC 1px;
+	font-weight: bold;
+	width: 280px;
+	padding: 10px 0px 0px 0px;
+}
+
+
+.field-name-field-resources2 .field-item a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-resources3{
+	width:285px;
+	border-top: solid #CCC 1px;
+	float:left;
+	margin-right: 25px;
+	padding: 10px 0px;
+	background:url("/sites/all/themes/ninesixty/images/resource_bottom.png") no-repeat left bottom;
+}
+
+.field-name-field-resources3 .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #666;
+	padding-bottom: 15px;
+}
+
+.field-name-field-resources3 .field-item a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-read-title{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #666;
+	border-top: solid #CCC 1px;
+	padding: 10px 0px 5px 0px;
+	font-weight:bold;
+	width: 280px;
+	float: left;
+	clear: both;
+	margin-right: 30px;
+}
+
+.field-name-field-read{
+	width:285px;
+	float:left;
+	margin-right: 25px;
+	padding: 10px 0px;
+	background:url("/sites/all/themes/ninesixty/images/resource_bottom.png") no-repeat left bottom;
+}
+
+.field-name-field-read .field-label{
+	font-size: 18px;
+	font-family: Georgia,serif;
+	color: #666;
+	padding-bottom: 15px;
+}
+
+.field-name-field-read .field-item a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	text-decoration:none;
+	font-size:12px;
+	display:run-in;
+}
+
+.field-name-field-related .field-item a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	font-style:normal;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.field-name-field-related .field-label{
+	margin-bottom:-3px;
+}
+
+.field-name-field-related .field-item.even p{
+	margin-bottom:0px;
+}
+
+.field-name-field-teaser{
+	float:left;
+	width:280px;
+}
+
+.view-id-frontpage .field-name-field-discipline{
+	float:left;
+	width:280px;
+}
+
+.view-id-frontpage .field-name-field-discipline .field-items{
+	float: left;
+}
+
+.field-name-field-discipline{
+	float:left;
+	padding-bottom:5px;
+	width:100%;
+}
+
+.field-name-field-discipline .field-items{
+	float: left;
+}
+
+.field-name-field-add-disc .field-label{
+	float:left;
+}
+
+.field-name-field-add-disc .field-items{
+	float: left;
+}
+
+.view-frontpage .field-name-field-add-disc{
+	float:left;
+	width:280px;
+}
+
+.view-frontpage .field-name-field-add-disc .field-items{
+	float: left;
+	width: 210px;
+}
+
+.field-name-field-difficulty{
+	padding-bottom:5px;
+}
+
+.field-name-field-add-disc{
+	padding-bottom:45px;
+}
+
+.related_curr a{
+	font-weight: bold;
+background: url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+padding: 0 0 0 10px;
+white-space: normal;
+font-size: 12px;
+line-height: 12px;
+}
+
+.related_curr p{
+font-size: 1.2em;
+color: #111;
+margin: 0 0 0px 0;
+}
+
+.field-name-field-related{
+	float:left;
+	width:290px;
+}
+
+.field-name-field-sub-article{
+	padding:10px 0px 10px 0px;
+}
+
+.field-name-field-sub-article a{
+	color:#6e6e7c !important;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;	
+}
+
+.field-name-field-sub-article a:hover{
+	color:#033333 !important;	
+}
+
+.field-name-field-discipline .field-item.even a{
+	font-size:12px;
+	text-decoration:none;
+	
+}
+
+.field-name-field-discipline .field-item.odd a{
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-add-disc .field-item.even a{
+	font-size:12px;
+	text-decoration:none;
+	
+}
+
+.field-name-field-add-disc .field-item.odd a{
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-difficulty .field-item.even a{
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-difficulty .field-item.odd a{
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-difficulty .field-item.even {
+	float:left;
+	padding:0 5px 0 0;
+}
+
+.field-name-field-difficulty .field-item.odd {
+	float:left;
+	padding:0 5px 0 0;
+}
+
+.field-name-field-discipline .field-item.even {
+	float:left;
+	padding:0 10px 0px 0;
+}
+
+.field-name-field-discipline .field-item.odd {
+	float:left;
+	padding:0 5px 0 0;
+}
+
+.field-name-field-add-disc .field-item.even {
+	float:left;
+	padding:0 10px 0px 0;
+}
+
+.field-name-field-add-disc .field-item.odd {
+	float:left;
+	padding:0 5px 0 0;
+}
+
+.field-name-field-worksheet-dl{
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 15px;
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 10px;
+}
+
+.field-name-field-worksheet-dl .file a{
+	color:#033333;
+	font-weight:bold;
+	margin-left:-7px;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-standards {
+	border-top: solid #CCC 1px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+.field-name-field-standards .field-item.even p{
+	font-style:italic;
+}
+
+.field-name-field-teaser-img{
+	float: left;
+	padding: 2px;
+	margin-right: 10px;
+	border: 1px solid #CCC;
+}
+
+.field-name-field-lede-img{
+	float: left;
+	padding: 2px;
+	border: 1px solid #CCC;
+	margin-bottom:10px;
+}
+
+.views-slideshow-controls-top{
+	float:right;
+}
+
+ul.links.inline{
+	display:none;
+}
+
+#block-views-more-resources-block{
+	float: left;
+	width: 300px;
+}
+
+#block-views-external-resources-block-1{
+	float: left;
+	width: 300px;
+}
+
+#block-views-external-resources-block-1 h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	font-size:18px;
+	padding-bottom:5px;
+}
+
+#block-views-more-resources-block h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	font-size:18px;
+	padding-bottom:5px;
+}
+
+.views-field-field-resource-link a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	font-size:12px;
+	line-height:12px;
+}
+
+#block-views-more-resources-block .views-row-odd, .views-row-even{
+	padding-bottom:5px;
+}
+
+#block-views-external-resources-block-1 .views-row-odd, .views-row-even{
+	padding-bottom:5px;
+}
+
+.views-field-field-ext-resources-link a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+	font-size:12px;
+	line-height:12px;
+}
+
+.view-id-frontpage .view-header p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	font-size:18px;
+	font-weight:bold;	
+}
+
+.view-front-page-2nd-block .view-header p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	font-size:18px;
+	font-weight:bold;
+	padding-bottom:5px;	
+}
+
+.view-inside-the-classroom-front-page{
+	border-bottom:1px solid #ccc;
+}
+
+.view-inside-the-classroom-front-page .view-header p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#999;
+	font-size:18px;
+	font-weight:bold;	
+	padding-bottom:10px;
+}
+
+.view-front-page-2nd-block .row-first{
+	border-bottom:1px #ccc solid;
+}
+
+.view-front-page-2nd-block .row-first .col-first{
+	padding-bottom:20px;
+	padding-right:20px;
+	width:300px;
+}
+
+.view-front-page-2nd-block .row-first .col-last{
+	padding-bottom:20px;	
+	width:300px;
+}
+
+.view-front-page-2nd-block .row-last .col-first{
+	border-bottom:1px #eee solid;
+	padding-top:15px;
+	padding-right:15px;
+	width:300px;
+	padding-bottom:10px;
+}
+
+.view-front-page-2nd-block .row-last .col-last{
+	border-bottom:1px #eee solid;
+	padding-top:15px;
+	width:300px;	
+	padding-bottom:10px;	
+}
+
+.view-front-page-2nd-block .views-field-title a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+}
+
+.view-front-page-2nd-block .views-field-title {
+	padding-bottom:10px;
+}
+
+.view-front-page-2nd-block .views-field-field-thumbnail{
+	float:left;
+	padding:2px;
+	border:1px solid #ccc;
+	margin-right:10px;
+}
+
+.view-inside-the-classroom-front-page .row-first .col-1, .col-2, .col-3, .col-4{
+	padding-right:5px;
+	width:150px;
+}
+
+.views-field-field-thumbnail-classroom{
+	border: 1px solid #CCC;
+	padding: 2px;
+	margin-bottom:5px;
+	max-width:140px;
+}
+
+.view-inside-the-classroom-front-page .views-field-title a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.view-inside-the-classroom-front-page .views-field-title{
+	width:140px;
+	}
+
+.view-front-page-2nd-block .views-field-field-related a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	white-space: normal;
+}
+.view-front-page-2nd-block .views-field-field-related p{
+	margin-bottom:0px;
+}
+
+.view-id-frontpage{
+	width: 610px;
+	float: left;
+	background: url("/sites/all/themes/ninesixty/images/img_top_border.png") repeat-x left bottom;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+
+.view-id-frontpage .views-field-field-teaser-img{
+	float:left;
+	border:1px solid #ccc;
+	padding:2px;
+	margin-right:5px;
+}
+
+.view-id-frontpage .views-field-title{
+	font-size:18px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.view-id-frontpage .views-field-field-related{
+	float: left;
+	margin-top: 5px;
+}
+
+.view-id-frontpage .views-field-field-discipline{
+	clear: both;
+	margin-right: 240px;
+}
+
+.view-id-frontpage .views-label-field-discipline{
+	font-size:12px;
+	font-weight:bold;
+}
+
+.view-id-frontpage .views-field-field-discipline .field-content a{
+	font-weight:normal;
+	font-size:12px;
+}
+
+.view-id-frontpage .views-label-field-related{
+	font-size:12px;
+	font-weight:bold;
+}
+
+.view-id-frontpage .views-field-field-teaser{
+}
+
+.view-frontpage h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:26px;
+	line-height:26px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+
+
+.field-name-field-photo-credit2{
+	width:285px;
+	float:left;
+	margin-right: 25px;
+	padding: 0px 0px 10px 0px;
+	color:#666;
+}
+
+.field-name-field-photo-credit3{
+	width:285px;
+	float:left;
+	margin-right: 25px;
+	padding: 0px 0px 10px 0px;
+	color:#666;
+}
+
+.field-name-field-photo-credit4{
+	width:285px;
+	float:left;
+	margin-right: 25px;
+	padding: 0px 0px 10px 0px;
+	color:#666;
+}
+
+.field-name-field-photo-credit {
+	color:#666;
+	float:left;
+}
+
+
+.field-name-field-lede-img-manual{
+	border:double 1px #ccc;
+	padding:2px;
+}
+
+.field-name-field-browse-links {
+	padding-top:20px;
+}
+
+.field-name-field-browse-links .field-label{
+	font-family:Georgia !important;
+	font-size:14px;
+}
+
+.field-name-field-browse-links .field-items{
+	margin-left:25px;
+}
+
+.field-name-field-browse-links .field-item.even, .field-item.odd{
+	padding-bottom:5px;
+}
+
+.field-name-field-browse-links .field-item a{
+	font-weight:bold;
+	background:url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 5px 10px;
+	white-space: normal;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.field-name-field-worksheet-dl .field-item.even, .field-item.odd{
+	padding-bottom:5px;
+	
+}
+
+.field-name-field-title1, .field-name-field-title2, .field-name-field-title3, .field-name-field-title4, .field-name-field-title5, .field-name-field-title6, .field-name-field-title7 .field-item.even{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:20px;
+	padding-top:20px;
+	border-top: 1px solid #CCC;
+	margin-top: 25px;
+}
+
+.field-name-field-back a{
+	float:right;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+.field-name-field-back2 a{
+	float:right;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+#edit-basic {
+    background: none repeat scroll 0 0 #EBEBEB;
+    margin-top: -45px;
+    padding: 15px 0px 15px 100px;
+}
+
+#edit-advanced{
+	float:left;
+	width:180px;
+	padding-top:35px;
+}
+
+.fieldset-legend{
+	display:none;
+}
+
+.currentsearch{
+	color: #BBBBBB;
+    display: block;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-decoration: none;
+	float:left;
+	margin-left:-180px;
+}
+
+.custom-search-filter{
+	float:left;
+	width:160px;
+}
+
+.search-info{
+	display:none;
+}
+
+.field-name-field-dc-academic{
+	float:left;
+	padding: 25px 10px 30px 0px;
+	border-top:1px solid #ccc;
+	clear:both;
+	max-width:610px;
+}
+
+.field-name-field-dc-academic .field-label{
+	font-size:16px;
+	font-family: Georgia,Serif;
+	padding-bottom:10px;
+}
+
+.field-name-field-dc-academic .field-item.even p{
+	font-size:1.5em;
+	line-height:1.5em;
+	font-family: Georgia,Serif;
+}
+
+
+.field-name-field-md-academic{
+	float:left;
+	padding: 10px 10px 30px 0px;
+}
+
+.field-name-field-md-academic .field-label{
+	font-size:16px;
+	font-family: Georgia,Serif;
+	padding-bottom:10px;
+}
+
+.field-name-field-md-academic .field-item.even p{
+	font-size:1.5em;
+	line-height:1.5em;
+	font-family: Georgia,Serif;
+}
+
+.field-name-field-va-academic{
+	padding-top:10px;
+	padding-right:10px;
+	float:left;
+}
+
+.field-name-field-va-academic .field-label{
+	font-size:16px;
+	font-family: Georgia,Serif;
+	padding-bottom:10px;
+}
+
+.field-name-field-content-core .field-label{
+	font-size:16px;
+	font-family: Georgia,Serif;
+	padding-bottom:10px;
+}
+
+.field-name-field-va-academic .field-item.even p{
+	font-size:1.5em;
+	line-height:1.5em;
+	font-family: Georgia,Serif;
+}
+
+.field-name-field-more-guide .field-label{
+	font-family: Georgia,serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight:bold;
+}
+
+.field-name-field-more-guide .field-item.even a{
+	font-family: Georgia,serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 12px;
+	background: url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	text-decoration:underline;
+}
+
+.field-name-field-more-guide .field-item.odd a{
+	font-family: Georgia,serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 12px;
+	background: url(/sites/all/themes/ninesixty/images/bullet.png) center left no-repeat;
+	padding: 0 0 0 10px;
+	text-decoration:underline;
+}
+
+.field-name-field-more-guide .field-item.even{
+	margin-bottom: 12px;
+}
+
+.field-name-field-more-guide .field-item.odd{
+	margin-bottom: 12px;
+}
+
+.field-name-field-body4{
+	width:580px;
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+.field-name-field-body9{
+	width:180px;
+	float:left;
+	margin-right:15px;
+}
+.field-name-field-body10{
+	width:180px;
+	float:left;
+}
+
+.field-name-field-body9 p {
+font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-body10 p {
+font-family: Georgia,serif;
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+.field-name-field-more-guide{
+	float:left;
+}
+
+.view-id-home_page{
+	display:none;
+}
+
+.field-name-field-body4 td{
+	border:1px solid #ccc;
+	padding:5px;
+	/* font-style:italic; */
+}
+
+#block-block-7{
+	float:left;
+	clear:both;
+	margin-bottom:5px;
+	width:100%;
+}
+
+#block-superfish-1{
+	width: 600px;
+	float: left;
+	clear: both;
+}
+
+#block-search-form{
+	float: right;
+	margin-bottom: 0px;
+	height: 32px;
+}
+
+.region-header{
+	clear:both;
+	float:left;
+	width:100%;
+}
+
+
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
+}
+
+#back-top a {
+	width: 108px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px;
+	height: 108px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(up-arrow.png) no-repeat center center;
+
+	/* rounded corners */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+
+#masthead-v4 {
+	display:none !important;
+}
+
+.view-maps .field-content a{
+	font-size: 14px;
+	padding-top: 10px;
+	float: left;
+	clear: both;
+	list-style-type: disc;
+}
+
+.view-powerpoint .field-content a{
+	font-size: 14px;
+	padding-top: 10px;
+	float: left;
+	clear: both;
+}
+
+.field-name-field-content-core{
+	float: left;
+clear: both;
+margin: 10px 0px 0px 0px;
+}
+
+.caption {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.image-caption-container {
+	font-weight:bold;
+	margin:0px 0px 20px;
+}

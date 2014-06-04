@@ -1,0 +1,37 @@
+
+.search-form {
+  margin-bottom: 1em;
+}
+.search-form input {
+	margin-top: 0px;
+	margin-bottom: -10px;
+}
+.search-results {
+  list-style: none;
+  width:600px;
+  padding-top:35px;
+}
+.search-results p {
+  margin-top: 0;
+}
+.search-results .title {
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.search-results li {
+  margin-bottom: 1em;
+}
+.search-results .search-snippet-info {
+  padding-left: 1em; /* LTR */
+}
+.search-results .search-info {
+  font-size: 0.85em;
+}
+.search-advanced .criterion {
+  float: left; /* LTR */
+  margin-right: 2em; /* LTR */
+}
+.search-advanced .action {
+  float: left; /* LTR */
+  clear: left; /* LTR */
+}
